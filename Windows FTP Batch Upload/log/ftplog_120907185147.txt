@@ -1,0 +1,31 @@
+             
+Time Begin:  
+The current time is: 18:51:48.03
+Enter the new time:              
+---- Start of FTP Session --------  
+             
+Connected to altoxp.
+220-Cerberus FTP Server Personal Edition
+220-UNREGISTERED
+220-Welcome to Cerberus FTP Server
+220 Created by Grant Averett
+User (altoxp:(none)): 
+331 User ftpuser, password please
+
+230 Password Ok, User logged in
+ftp> ascii        
+200 Type ASCII
+ftp> ftp> mput *.txt   
+*.txt:File not found 
+binary       
+200 Type Binary
+ftp> ftp> mput *.tif   
+*.tif:File not found 
+quit         
+221 Goodbye
+             
+---- End of FTP Session --------  
+             
+Time End:    
+The current time is: 18:51:48.78
+Enter the new time:              

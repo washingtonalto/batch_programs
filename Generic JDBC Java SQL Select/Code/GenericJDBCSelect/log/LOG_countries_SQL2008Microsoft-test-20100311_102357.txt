@@ -1,0 +1,9 @@
+=======================> Start Extraction for countries.txt 
+Input SQL: 
+select * from countries 
+ 
+ 
+Query Results Statistics: 
+ 
+jdbc:sqlserver://ALTOSQLEXPRESS:1433;databaseName=test
+Press any key to continue . . . 

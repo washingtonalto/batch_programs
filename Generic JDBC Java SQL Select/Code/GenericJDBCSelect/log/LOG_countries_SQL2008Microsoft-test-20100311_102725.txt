@@ -1,0 +1,69 @@
+=======================> Start Extraction for countries.txt 
+Input SQL: 
+select * from countries 
+ 
+ 
+Query Results Statistics: 
+ 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO jdbc:sqlserver://ALTOSQLEXPRESS:1433;databaseName=test 
+jdbc:sqlserver://ALTOSQLEXPRESS:1433;databaseName=test
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>PAUSE
+Press any key to continue . . . 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>goto main 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO -- JDBCSQLSelect Start --  
+-- JDBCSQLSelect Start -- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO.
+
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO Start Date and Time:  
+Start Date and Time: 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>DATE /T 
+Thu 03/11/2010 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>TIME  0<NUL 
+The current time is: 10:27:43.76
+Enter the new time: 
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO.
+
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO.
+
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>"C:\Program Files\Java\jre6\bin\java" JDBCSQLSelect jdbc:sqlserver://ALTOSQLEXPRESS:1433;databaseName=test com.microsoft.sqlserver.jdbc.SQLServerDriver test test "..\input\countries.txt"  "..\output\countries__20100311_102725.txt " True True "|" "" "5000" "..\padspace\padspace.txt" "True"  
+JDBCSQLSelect - Generic JDBC tool for dumping SQL Select statements to 
+                fixed-width text and delimited text files              
+Copyright (c) 2007, Washington Alto. All rights reserved.              
+Version: 1.2
+
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO.
+
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO End Date and Time:  
+End Date and Time: 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>DATE /T 
+Thu 03/11/2010 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>TIME  0<NUL 
+The current time is: 10:28:01.42
+Enter the new time: 
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO.
+
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO.
+
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO -- JDBCSQLSelect End --  
+-- JDBCSQLSelect End -- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ========== End of Main JAVA Routine ========================================= 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ENDLOCAL
+=======================> End Extraction for countries.txt   

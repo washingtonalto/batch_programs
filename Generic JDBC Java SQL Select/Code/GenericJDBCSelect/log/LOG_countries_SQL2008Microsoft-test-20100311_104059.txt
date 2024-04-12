@@ -1,0 +1,27 @@
+=======================> Start Extraction for countries.txt 
+Input SQL: 
+select * from countries 
+ 
+ 
+Query Results Statistics: 
+ 
+-- JDBCSQLSelect Start -- 
+
+Start Date and Time: 
+Thu 03/11/2010 
+The current time is: 10:41:00.00
+Enter the new time: 
+
+JDBCSQLSelect - Generic JDBC tool for dumping SQL Select statements to 
+                fixed-width text and delimited text files              
+Copyright (c) 2007, Washington Alto. All rights reserved.              
+Version: 1.2
+
+
+End Date and Time: 
+Thu 03/11/2010 
+The current time is: 10:41:16.53
+Enter the new time: 
+
+-- JDBCSQLSelect End -- 
+=======================> End Extraction for countries.txt   

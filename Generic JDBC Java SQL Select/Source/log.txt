@@ -1,0 +1,44 @@
+==================== JDBCSQLSelect Start ==================== 
+
+Start Time: 
+The current time is: 12:53:22.43
+Enter the new time: 
+
+JDBCSQLSelect - Generic JDBC tool for dumping SQL Select statements to 
+                fixed-width text and delimited text files              
+Copyright (c) 2007, Washington Alto. All rights reserved.              
+Version: 1.2
+
+Supplied Information: 
+JDBC Driver: com.mysql.jdbc.Driver
+JDBC URL   : jdbc:mysql://localhost:3306/victoriacourt
+User Name  : victoriacourt
+
+Extracted Information: 
+Database Name      : MySQL
+Database Version   : 5.0.41-community-nt
+JDBC Driver Name   : MySQL-AB JDBC Driver
+JDBC Driver Version: mysql-connector-java-5.0.7 ( $Date: 2007-03-09 22:13:57 +0100 (Fri, 09 Mar 2007) $, $Revision: 6341 $ )
+String used to quote SQL identifiers : `
+
+Available Database String Functions  : ASCII,BIN,BIT_LENGTH,CHAR,CHARACTER_LENGTH,CHAR_LENGTH,CONCAT,CONCAT_WS,CONV,ELT,EXPORT_SET,FIELD,FIND_IN_SET,HEX,INSERT,INSTR,LCASE,LEFT,LENGTH,LOAD_FILE,LOCATE,LOCATE,LOWER,LPAD,LTRIM,MAKE_SET,MATCH,MID,OCT,OCTET_LENGTH,ORD,POSITION,QUOTE,REPEAT,REPLACE,REVERSE,RIGHT,RPAD,RTRIM,SOUNDEX,SPACE,STRCMP,SUBSTRING,SUBSTRING,SUBSTRING,SUBSTRING,SUBSTRING_INDEX,TRIM,UCASE,UPPER
+Available Database Numeric Functions : ABS,ACOS,ASIN,ATAN,ATAN2,BIT_COUNT,CEILING,COS,COT,DEGREES,EXP,FLOOR,LOG,LOG10,MAX,MIN,MOD,PI,POW,POWER,RADIANS,RAND,ROUND,SIN,SQRT,TAN,TRUNCATE
+Available Database DateTime Functions: DAYOFWEEK,WEEKDAY,DAYOFMONTH,DAYOFYEAR,MONTH,DAYNAME,MONTHNAME,QUARTER,WEEK,YEAR,HOUR,MINUTE,SECOND,PERIOD_ADD,PERIOD_DIFF,TO_DAYS,FROM_DAYS,DATE_FORMAT,TIME_FORMAT,CURDATE,CURRENT_DATE,CURTIME,CURRENT_TIME,NOW,SYSDATE,CURRENT_TIMESTAMP,UNIX_TIMESTAMP,FROM_UNIXTIME,SEC_TO_TIME,TIME_TO_SEC
+Available Database Systems Functions : DATABASE,USER,SYSTEM_USER,SESSION_USER,PASSWORD,ENCRYPT,LAST_INSERT_ID,VERSION
+
+Database Vendor Preferred Term for Catalog: database
+Database Vendor Preferred Term for Schema : 
+
+Start of copying rows: 
+1,000 rows copied
+2,000 rows copied
+3,000 rows copied
+4,000 rows copied
+5,000 rows copied
+Total number of rows copied: 5,490.
+
+End Time: 
+The current time is: 12:53:25.26
+Enter the new time: 
+
+==================== JDBCSQLSelect End   ==================== 

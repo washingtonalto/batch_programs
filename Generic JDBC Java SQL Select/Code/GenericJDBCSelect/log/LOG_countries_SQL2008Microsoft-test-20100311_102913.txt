@@ -1,0 +1,13 @@
+=======================> Start Extraction for countries.txt 
+Input SQL: 
+select * from countries 
+ 
+ 
+Query Results Statistics: 
+ 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO jdbc:sqlserver://ALTOSQLEXPRESS:1433;databaseName=test 
+jdbc:sqlserver://ALTOSQLEXPRESS:1433;databaseName=test
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>PAUSE
+Press any key to continue . . . 

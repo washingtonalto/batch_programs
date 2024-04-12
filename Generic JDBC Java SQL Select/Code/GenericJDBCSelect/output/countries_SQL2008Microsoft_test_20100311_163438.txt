@@ -1,0 +1,2 @@
+[COUNTRY_ID]|[COUNTRY_NAME]|[REGION_ID]
+PH|PHILIPPINES                                       |1         

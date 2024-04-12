@@ -1,0 +1,23 @@
+=======================> Start Extraction for countries.txt 
+Input SQL: 
+select * from countries 
+ 
+ 
+Query Results Statistics: 
+ 
+Now at SQL 2008 Microsoft....
+JDBCURL String: jdbc:sqlserver://ALTOSQLEXPRESS:1433;databaseName=test
+Press any key to continue . . . 
+-- JDBCSQLSelect Start -- 
+
+Start Date and Time: 
+Thu 03/11/2010 
+The current time is: 10:33:55.15
+Enter the new time: 
+
+JDBCSQLSelect - Generic JDBC tool for dumping SQL Select statements to 
+                fixed-width text and delimited text files              
+Copyright (c) 2007, Washington Alto. All rights reserved.              
+Version: 1.2
+
+Terminate batch job (Y/N)? 

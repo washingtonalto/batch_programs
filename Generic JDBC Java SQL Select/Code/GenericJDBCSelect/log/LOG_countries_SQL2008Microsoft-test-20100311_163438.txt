@@ -1,0 +1,49 @@
+=======================> Start Extraction for countries.txt 
+Input SQL: 
+select * from countries 
+ 
+ 
+Query Results Statistics: 
+ 
+-- JDBCSQLSelect Start -- 
+
+Start Date and Time: 
+Thu 03/11/2010 
+The current time is: 16:34:38.98
+Enter the new time: 
+
+JDBCSQLSelect - Generic JDBC tool for dumping SQL Select statements to 
+                fixed-width text and delimited text files              
+Copyright (c) 2007, Washington Alto. All rights reserved.              
+Version: 1.2
+
+Supplied Information: 
+JDBC Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+JDBC URL   : jdbc:sqlserver://localhost:1433;databaseName=test
+User Name  : test
+
+Extracted Information: 
+Database Name      : Microsoft SQL Server
+Database Version   : 10.00.1600
+JDBC Driver Name   : Microsoft SQL Server JDBC Driver 2.0
+JDBC Driver Version: 2.0.1803.100
+String used to quote SQL identifiers : "
+
+Available Database String Functions  : ASCII,CHAR,CONCAT, DIFFERENCE,INSERT,LCASE,LEFT,LENGTH,LOCATE,LTRIM,REPEAT,REPLACE,RIGHT,RTRIM,SOUNDEX,SPACE,SUBSTRING,UCASE
+Available Database Numeric Functions : ABS,ACOS,ASIN,ATAN,ATAN2,CEILING,COS,COT,DEGREES,EXP, FLOOR,LOG,LOG10,MOD,PI,POWER,RADIANS,RAND,ROUND,SIGN,SIN,SQRT,TAN,TRUNCATE
+Available Database DateTime Functions: CURDATE,CURTIME,DAYNAME,DAYOFMONTH,DAYOFWEEK,DAYOFYEAR,HOUR,MINUTE,MONTH,MONTHNAME,NOW,QUARTER,SECOND,TIMESTAMPADD,TIMESTAMPDIFF,WEEK,YEAR
+Available Database Systems Functions : DATABASE,IFNULL,USER
+
+Database Vendor Preferred Term for Catalog: database
+Database Vendor Preferred Term for Schema : schema
+
+Start of copying rows: 
+Total number of rows copied: 1.
+
+End Date and Time: 
+Thu 03/11/2010 
+The current time is: 16:34:42.51
+Enter the new time: 
+
+-- JDBCSQLSelect End -- 
+=======================> End Extraction for countries.txt   

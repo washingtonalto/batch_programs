@@ -1,0 +1,258 @@
+=======================> Start Extraction for countries.txt 
+Input SQL: 
+select * from countries 
+ 
+ 
+Query Results Statistics: 
+ 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ========================= Start of Batch Program Notes ====================================== 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM Batch Program : runJDBCSQLSelect.bat 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM Description   : run JAVASQLSQLSelect java class and provides appropriate parameters  
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM Created by    : Washington Alto 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM Date Created  : July 2006 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM Date Modified : July 2006 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM Parameter 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      countries - inputSQLfile (w/out the *.txt extension) 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      countries__20100311_101324 - outputresultsfile (w/out the *.txt extension) 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM Environment Variable: 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      javaexec          - Full path for java executable 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM	 servername        - Server Name 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM	 DBUser            - Database User Name 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM	 DBPassword        - Database User Password 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM	 inputSQLdir       - Directory where SQL query file is located  
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM	 inputSQLfile      - SQL query file containing SQL query to be executed 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM	 outputresultsdir  - Directory where Output Results file is located 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM	 outputresultsfile - Output Results file 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM	 isCSV             - 'True' if CSV and 'False' if fixed-width text  
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      hasHeader         - 'True' if column name will be displayed and 'False' if column names will not 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM	 databasetype      - See detail below: 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                             SQL2008Microsoft  - SQL Server 2008 JDBC Driver from Microsoft 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                             SQL2000Microsoft  - SQL Server 2000 JDBC Driver from Microsoft 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                             SQL2000Jtds       - Open Source SQL Server 2000 JDBC Driver 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                             AS400HitSW        - DB2/400 Driver from HitSW 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                             AS400JTOpen       - DB2/400 Driver from IBM's JTOpen Open Source 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                             MySQL             - MySQL Driver from MySQL 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                             Oracle10gR2Oracle - Oracle 10gR2 Driver from Oracle 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                             Oracle8_1_7Oracle - Oracle 8.1.7 Driver from Oracle 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                             Oracle9_2_0Oracle - Oracle 9.2.0 Driver from Oracle 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                             UDB2IBM           - IBM Universal DB/2 for Windows or Linux 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                             Postgres          - Postgres Database 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                             EasysoftODBC      - Use EasysoftJDBC-ODBC Bridge 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      fielddelimiter    - field delimiter if isCSV is 'True' e.g. ",",":" 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      textqualifier     - text qualifier if isCSV is 'True' e.g. "\"","'" 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      rowscopiedincrement - counter used for display on the no. of rows copied to text file 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      padspacedir       - Directory where Pad Space file is located.  
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      padspacefile      - Name of Pad Space File containing specifications on how much spaces to pad for the fields. 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM                          This need not be an existing file if isCSV is true. 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      isVerbose         - displays useful information if isverbose is 'True' otherwise, it suppresses its display 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      Disphelp          - displays help or usage information 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      OraclePort        - Oracle Port 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM      OracleSID         - Oracle SID 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ========================= End of Batch Program Notes ====================================== 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ======== Start Definition of Local Environment Variables ==================== 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SETLOCAL
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET javaexec=C:\Program Files\Java\jre6\bin\java 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET servername=ALTOSQLEXPRESS 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET DBUser=test 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET DBPassword=test 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET inputSQLdir=..\input 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET inputSQLfile=countries.txt 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET outputresultsdir=..\output 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET isCSV=True 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET hasHeader=True 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET databasetype=SQL2008Microsoft 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>IF PIPE EQU CSV (
+SET fielddelimiter=,  
+ SET textqualifier="  
+ SET outputresultsfile=countries__20100311_101324.csv  
+)  else (
+SET fielddelimiter=|  
+ SET textqualifier=  
+ SET outputresultsfile=countries__20100311_101324.txt  
+) 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET rowscopiedincrement=5000 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET padspacedir=..\padspace 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET padspacefile=padspace.txt 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET isVerbose=True 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET Disphelp=False 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET OraclePort=1521 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET OracleSID=XE 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ========== End Definition of Local Environment Variables ==================== 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ========== Start of Database-Specific Environment Variable Definition ========== 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> SQL Server 2008 JDBC from Microsoft Settings <------- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET SQL2008connectOption=databaseName=test 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> SQL Server 2000 JDBC from Microsoft Settings <------- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET SQL2000connectOption1= 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> SQL Server 2000 JDBC (JTds) Settings <------- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET SQL2000connectOption2= 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> DB/2 for AS/400 HitSW JDBC Settings <------- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET DB2400HitSWlibraries= 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET HitSWconnectOption=ccsid=37;fetch_block_size=64;LIBRARIES= 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> DB/2 for AS/400 JTOpen JDBC Settings <------- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET DB2400JTOpnlibraries= 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET JTOpnconnectOption=LIBRARIES= 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> MySQL JDBC Settings <------- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET mysqldatabasename= 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> Oracle 10g Release 2 JDBC from Oracle Settings <------- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET Oracle10gPort=1521 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET Oracle10gServiceName=XE 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> Oracle 8.1.7 JDBC from Oracle Settings <------- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET Oracle8Port=1521 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET Oracle8ServiceName=XE 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> Oracle 9.2.0 JDBC from Oracle Settings <------- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET Oracle9Port=1521 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET Oracle9ServiceName=XE 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> DB2 JDBC from IBM Settings <------- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET DB2DatabaseName=Sample 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET DB2Schema=WASHINGTON 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> Postgres JDBC Settings <------- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET postgresdatabasename=postgres 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> Easysoft ODBC JDBC Settings <------- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET DSNName=Northwind 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET EasysoftconnectOption=:logonuser=securitybank:logonpassword=securitybank 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ----> StelsDBF JDBC Settings <------ 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET DBFdir=G:\Backup Softwares\StelsDBF JDBC Driver\stels_dbf\test 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>REM ========== End of Database-Specific Environment Variable Definition ========== 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>IF False == True (goto DisplayHelp  ) 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>IF SQL2008Microsoft == SQL2008Microsoft (goto SQL2008Microsoft  ) 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET classpath=.;Drivers\SQL2008Microsoft\sqljdbc4.jar 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET JDBCURL=jdbc:sqlserver://ALTOSQLEXPRESS:1433;databaseName=test 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>SET JDBCDriver=com.microsoft.sqlserver.jdbc.SQLServerDriver 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>goto main 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO -- JDBCSQLSelect Start --  
+-- JDBCSQLSelect Start -- 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO.
+
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO Start Date and Time:  
+Start Date and Time: 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>DATE /T 
+Thu 03/11/2010 
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>TIME  0<NUL 
+The current time is: 10:13:25.18
+Enter the new time: 
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO.
+
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>ECHO.
+
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>"C:\Program Files\Java\jre6\bin\java" JDBCSQLSelect jdbc:sqlserver://ALTOSQLEXPRESS:1433;databaseName=test com.microsoft.sqlserver.jdbc.SQLServerDriver test test "..\input\countries.txt"  "..\output\countries__20100311_101324.txt " True True "|" "" "5000" "..\padspace\padspace.txt" "True"  
+JDBCSQLSelect - Generic JDBC tool for dumping SQL Select statements to 
+                fixed-width text and delimited text files              
+Copyright (c) 2007, Washington Alto. All rights reserved.              
+Version: 1.2
+
+
+E:\Data\Washington Alto\Documents\Batch Programs\GenericJDBCSelect\batch>PAUSE
+Press any key to continue . . . 
